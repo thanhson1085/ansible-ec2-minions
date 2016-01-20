@@ -1,0 +1,7 @@
+---
+  - name: Run Test Script
+    hosts: minions
+    tasks:
+        - shell: echo 'test script' #should change to test script
+          args:
+              chdir: /home/ubuntu
